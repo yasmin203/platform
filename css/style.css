@@ -201,7 +201,7 @@ ul {
 }
 /* Sponsores */
 #sponsores {
-  background-image: url("/imgs/back-s.png");
+  background-image: url("https://yasmin203.github.io/platform/imgs/back-s.png");
   background-size: cover;
   display: block;
   text-align: center;
