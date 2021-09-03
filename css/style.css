@@ -201,7 +201,7 @@ ul {
 }
 /* Sponsores */
 #sponsores {
-  background: url("/imgs/back-s.png");
+  background-image: url("/imgs/back-s.png");
   background-size: cover;
   text-align: center;
   max-width: 100%;
@@ -216,7 +216,6 @@ ul {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-
 }
 .s-content img:hover {
   box-shadow: 0 0px 5px 3px #e4e1e1bb;
@@ -256,7 +255,6 @@ ul {
   padding-bottom: var(--section-margin);
   background-color: #323969;
   position: relative;
-
 }
 .try-title h2 {
   color: white;
@@ -266,13 +264,12 @@ ul {
   color: white;
   font-size: 14px;
   padding: 10px 5px;
-
 }
 .form-control:focus {
   outline: none;
   box-shadow: none;
 }
-div [type='submit'] {
+div [type="submit"] {
   border: none;
   background-color: var(--buttons-color) !important;
 }
@@ -361,23 +358,22 @@ i.fa.fa-paper-plane {
 .newslatter {
   z-index: 100;
 }
-.signing.copy, 
-.signing span{
+.signing.copy,
+.signing span {
   color: #ffffff;
   padding: 1rem;
-  background-color:#323969 ;
-
+  background-color: #323969;
 }
-.signing span{
+.signing span {
   color: var(--buttons-color);
   padding: 0 5px;
 }
 /* media Query */
 
-@media  (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .navbar-brand {
-    margin-right: 0; 
-}
+    margin-right: 0;
+  }
   .carousel-caption.d-none.d-md-block {
     display: block !important;
   }
@@ -388,8 +384,8 @@ i.fa.fa-paper-plane {
     margin-bottom: 0px;
   }
   .hero-btn {
-     margin-left: 0;
-     font-size: 12px;
+    margin-left: 0;
+    font-size: 12px;
     padding: 8px 14px;
   }
   #header button {
@@ -399,23 +395,24 @@ i.fa.fa-paper-plane {
   }
   .fa-play-circle {
     font-size: 25px;
-}
-#header p {
-  font-size: 10px;
-  margin-bottom: -15px;
-  margin-top: 0px;
-}
-#svg2 {
-  position: absolute;
-  right: 5px;
-  top: 0;
-}
-#svg1, #svg2 {
-  width: 80px;
-}
-.col-lg-6.col-md-8.col-sm-12.new {
-  padding-right: 50px;
-}
+  }
+  #header p {
+    font-size: 10px;
+    margin-bottom: -15px;
+    margin-top: 0px;
+  }
+  #svg2 {
+    position: absolute;
+    right: 5px;
+    top: 0;
+  }
+  #svg1,
+  #svg2 {
+    width: 80px;
+  }
+  .col-lg-6.col-md-8.col-sm-12.new {
+    padding-right: 50px;
+  }
   .shapes {
     display: none;
   }
@@ -430,14 +427,14 @@ i.fa.fa-paper-plane {
     max-height: 210px;
   }
   .sp-logos {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .sp-logos img {
     margin: 14px auto;
     max-width: 60px;
   }
   #sponsores {
-   padding-bottom: 10rem;
+    padding-bottom: 10rem;
   }
   span.triangle-two {
     border-width: 100px;
@@ -448,30 +445,27 @@ i.fa.fa-paper-plane {
   .form-control {
     margin-bottom: 40px;
   }
-  div [type='submit'] {
+  div [type="submit"] {
     position: relative;
   }
   .trynow {
-   
     position: absolute;
     right: 24%;
     top: 59%;
   }
-  .signing.copy, 
-.signing span{
-  font-size: 12px ;
-
+  .signing.copy,
+  .signing span {
+    font-size: 12px;
+  }
+  .footer-items span {
+    padding-left: 5px;
+  }
 }
-.footer-items span {
-  padding-left: 5px;
-}
-}
- @media (min-width: 768px)and (max-width:1024px) {
-  
+@media (min-width: 768px) and (max-width: 1024px) {
   #header .carousel-caption {
     margin: -40px auto;
   }
-  .hero-btn{
+  .hero-btn {
     margin-left: 0;
   }
   .new {
@@ -480,11 +474,11 @@ i.fa.fa-paper-plane {
   .new-two {
     margin: 0 auto;
     padding-bottom: 100px;
-}
+  }
   #macbook {
     margin: 0 auto;
   }
-  .form-control{
+  .form-control {
     margin-bottom: 50px;
   }
   .trynow {
@@ -494,11 +488,10 @@ i.fa.fa-paper-plane {
   .triangle {
     bottom: 5%;
   }
-  .triangel-three{
+  .triangel-three {
     bottom: 50%;
   }
-
-} 
+}
 
 @media (min-width: 1024px) {
   .hero-btn {
@@ -506,17 +499,15 @@ i.fa.fa-paper-plane {
   }
   .new-two {
     padding-left: 8rem;
+  }
+  #macbook {
+    margin: 50px -80px;
+  }
+  .trynow {
+    right: 58px;
+    top: 200px;
+  }
+  .triangel-three {
+    bottom: 10%;
+  }
 }
-#macbook {
-  margin: 50px -80px;
-}
-.trynow {
-  right: 58px;
-  top: 200px;
-}
-.triangel-three{
-  bottom: 10%;
-}
-}
-
-
