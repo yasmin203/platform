@@ -370,6 +370,32 @@ i.fa.fa-paper-plane {
   color: var(--buttons-color);
   padding: 0 5px;
 }
+
+.fa-angle-up {
+  background-color: #6c757d;
+  color: white;
+  font-size: 40px;
+  padding: 5px 10px;
+  transform: rotate(346deg);
+  border-radius: 5px;
+  box-shadow: -3px 6px 5px 0px black;
+  position: fixed;
+  right: 22px;
+  bottom: 10px;
+  -webkit-transform: rotate(346deg);
+  -moz-transform: rotate(346deg);
+  -ms-transform: rotate(346deg);
+  -o-transform: rotate(346deg);
+}
+.fa-angle-up:hover {
+  transform: rotate(360deg);
+  transition: 0.2s;
+
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
 /* media Query */
 
 @media (min-width: 320px) and (max-width: 767px) {
