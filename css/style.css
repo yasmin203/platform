@@ -202,12 +202,8 @@ ul {
 /* Sponsores */
 #sponsores {
   background-image: url("/imgs/back-s.png");
-  background-size: cover;
-  display: block;
   text-align: center;
-  max-width: 100%;
-  float: none;
-  height: 100%;
+
 }
 .s-content img {
   margin: 15% auto;
@@ -435,9 +431,9 @@ i.fa.fa-paper-plane {
     margin: 14px auto;
     max-width: 60px;
   }
-  #sponsores {
+  /* #sponsores {
     padding-bottom: 10rem;
-  }
+  } */
   span.triangle-two {
     border-width: 100px;
     position: absolute;
