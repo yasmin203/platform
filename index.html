@@ -9,22 +9,18 @@
     <link rel="stylesheet" href="./css/all.min.css" />
     <link rel="stylesheet" href="./css/normalization.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="fonts/googleFonts.css" />
   </head>
   <body>
     <!-- navbar -->
-    
-      <nav class="navbar navbar-expand-lg  navbar-light bg-light fixed-top" >
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-       
         <a class="navbar-brand" href="#">
           <h4>Start <i class="fas fa-caret-right"> </i><span> Ex</span></h4></a
         >
         <button
-          class="navbar-toggler"
+          class="navbar-toggler p-0 m-0 "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarTogglerDemo02"
@@ -32,17 +28,15 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav  m-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item active">
-              <a class="nav-link" href="#header"
-                >Home</a
-              >
+              <a class="nav-link" href="#header">Home</a>
             </li>
-            <li class="nav-item ">
+            <li class="nav-item">
               <a class="nav-link" href="#new-design">About US</a>
             </li>
             <li class="nav-item">
@@ -55,14 +49,12 @@
               <a class="nav-link" href="#try-now">Try Now</a>
             </li>
             <li class="nav-item">
-              <button class="hero-btn" href="#try-now">
-                Get Started
-              </button>
+              <button class="hero-btn" href="#try-now">Get Started</button>
             </li>
           </ul>
         </div>
       </div>
-      </nav>
+    </nav>
 
     <!-- landing -->
     <div id="header">
@@ -167,9 +159,9 @@
           <div class="col-lg-4 col-md-6 col-sm-12">
             <span class="triangle-two"></span>
             <img
-              src="/imgs/macbook-removebg-preview.png"
+              src="./imgs/macbook-removebg-preview.png"
               id="macbook"
-              type="macbook"
+              alt="macbook"
             />
           </div>
           <div class="col-lg-6 col-md-8 col-sm-12 new-two">
@@ -226,14 +218,15 @@
               provident.</q
             >
           </div>
-          <div id="sp-logos">
+        </div>
+          <div class="row sp-logos">
             <img src="./imgs/partner-logo-8.png" type="logo1" />
             <img src="./imgs/partner-logo-7.png" type="logo2" />
             <img src="./imgs/partner-logo-5.png" type="logo3" />
             <img src="./imgs/partner-logo-4.png" type="logo4" />
             <img src="./imgs/partner-logo-1.png" type="logo4" />
           </div>
-        </div>
+        
       </div>
     </div>
     <!-- new features macscreen -->
@@ -267,10 +260,7 @@
           <h6>NEW DESIGN</h6>
           <h2>Over 1000 designers are using ...</h2>
           <br />
-          <div class="trynow">
-            <img src="./imgs/ARROW.png" alt="arrow" /> 30 days free trial for
-            all.
-          </div>
+  
         </div>
         <form action="">
           <div class="row">
@@ -306,6 +296,10 @@
                 id="trynow"
                 value="TRY NOW"
               />
+              <div class="trynow">
+                <img src="./imgs/ARROW.png" alt="arrow" /> 30 days free trial for
+                all.
+              </div>
             </div>
           </div>
         </form>
@@ -317,7 +311,7 @@
     <!-- Footer -->
     <div id="footer">
       <div class="container">
-        <div class="triangel-three"></div>
+        <div class="triangle triangel-three"></div>
         <div class="row footer-items">
           <div class="col-lg-3 col-md-6 col-sm-12">
             <h4>Start <i class="fas fa-caret-right"> </i><span> Ex</span></h4>
@@ -366,8 +360,10 @@
             </ul>
           </div>
         </div>
+
       </div>
     </div>
+    <h6 class="signing copy ">Developed By<span>Yasmin Ibrahim 2021</span>&copy; Corporate Labding Page Template</h6>
 
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
